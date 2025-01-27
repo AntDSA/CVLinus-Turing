@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+.cv-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-gauche {
+    width: 30%;
+    background: rgb(52, 152, 219);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-gauche img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.info-gauche h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.info-gauche h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(241, 196, 15);
+}
+
+.info-gauche h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(236, 240, 241);
+}
+
+.info-gauche p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.container-droit {
+    width: 70%;
+    padding: 20px;
+}
+
+.container-droit h2 {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(52, 152, 219);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: rgb(52, 152, 219);
+}
+
+.container-droit h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container-droit p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.container-droit ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.container-droit ul li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+.diplome {
+    margin-bottom: 15px;
+}
+.hobbit {
+    margin-top: 20px;
+  }
